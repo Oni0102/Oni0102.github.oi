@@ -1,0 +1,467 @@
+body{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.derey{
+    margin: -18;
+    padding: 20px 0;
+    margin-left: 50px;
+    max-width: 90px;
+    max-height: 90px;
+}
+.tieude{
+    text-align: center;
+    padding: 14px;
+    margin-top: -40px;
+    
+    
+}
+.tieude>a{
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+.tieude>a:hover{
+    color: green;
+}
+.benphai{
+    float: right;
+    margin-top: -35px;
+    
+}
+.o-timkiem{
+    width: 213px;
+    padding: auto;
+    border: 3px solid green;
+    border-radius: 10px;
+    
+}
+.timkiem{
+    border: 3px solid green;
+    padding: auto;
+    margin-left: -3px;
+    border-radius: 10px;
+}
+ul.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+ul.products li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing:border-box ;
+    margin-bottom: 30px;
+}
+ul.products li img{
+    max-width: 100%;
+    height: 300px;
+    width: 350px;
+
+}
+ul.products li .product-top{
+    position: relative ;
+    overflow: hidden;
+}
+ul.products li .product-top .product-thumb{
+    display: block;
+}
+ul.products li .product-top .product-thumb img{
+    display: block;
+}
+ul.products li .product-top a.buy{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align:center ;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: -39px;
+    transition: 0.25s ease-in-out;
+
+}
+ul.products li:hover a.buy{
+    bottom: 0px ;
+}
+ul.products li .product-info{
+    padding: 20px 0px;
+}
+
+ul.products li .product-info a{
+    display: block;
+    text-decoration: none;
+
+}
+ul.products li .product-info a.product-cat{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #9e9e9e;
+    padding: 3px 0px;
+}
+ul.products li .product-info a.product-name{
+    color: #334862;
+    padding: 3px 0px;
+
+}
+ul.products li .product-info .product-price{
+    color: #111;
+    padding: 3px 0px;
+    font-weight: 600;
+}
+footer{
+    position: relative;
+     width: 100%;
+     height: auto;
+     padding: 50px 100px;
+     background: #111;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .container .noi-dung{
+    margin-right: 30px;
+}
+footer  .container .noi-dung.about{
+    width:40%;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+footer .container .noi-dung.about p{
+    color: #999;
+}
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+}
+.social-icon li {
+    list-style: none;
+}
+.social-icon li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.social-icon li a:hover{
+    background: #f00;
+}
+.social-icon li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+}
+.social-icon li {
+    list-style: none;
+}
+.social-icon li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.social-icon li a:hover{
+    background: #f00;
+}
+.social-icon li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.links{
+   position: relative;
+   width: 25%;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links ul li a:hover{
+    color: #fff;
+}
+.contact h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span{
+    color: #999;
+}
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-top:16px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+.btn--primary {
+    background: #222;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 8px 24px;
+}
+.btn--primary:hover {
+    background: #f00;
+}
+.btn--primary:active {
+    background: #f00;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+.form__field {
+    width: 90%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 8px 4px;
+}
+.title-sanpham{
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.title-sanpham a{
+ text-decoration: none;
+ text-transform: initial;
+ color: #777777;
+ box-sizing: border-box;
+ font-size: 13px;
+ margin-left: 10px;
+}
+.title-tatcasanpham a{
+    text-decoration: none;
+    text-transform: initial;
+    color: #777777;
+    font-size: 20px;
+}
+.title a{
+    text-decoration: none;
+    text-transform: initial;
+    color: #777777;
+    font-size: 20px;
+}
+.sapxep{
+    margin-left: 1050px;
+    color: red;
+    border-radius: 4px;
+    border: 2px solid #222;
+}
+.chon{
+   margin-left: 380px ;
+   color: red;
+   border-radius: 4px;
+   
+
+}
+.a{
+    padding: 4px 6px;
+    margin-right: 10px;
+    color: red;
+    border-radius: 4px;
+    border: 2px solid #222;
+
+   }
+.b{
+ padding: 4px 6px;
+ margin-right: 90px;
+ color: red;
+ border-radius: 4px;
+ border: 2px solid #222;
+
+}
+.c{
+    padding: 4px 6px;
+    margin-right: 90px;
+    color: red;
+    border-radius: 4px;
+    border: 2px solid #222;
+
+   }
+.d{
+    padding: 4px 6px;
+    margin-right: 90px;
+    color: red;
+    border-radius: 4px;
+    border: 2px solid #222;
+
+   }
+.tieudegioithieu a{
+    text-decoration: none;
+    text-transform: initial;
+    color: #777777;
+    text-align: center ;
+   }
+.GT{
+    text-align: center;
+}
+.lienhe{
+    text-align: center;
+    display: block;
+    margin-left: -40px;
+    background-color: #446084;
+
+}
+.user{
+    padding: 15px;
+}
+.pass{
+    padding: 15px;
+}
+.email{
+    padding: 15px;
+}
+.tel{
+    padding: 15px;
+}
+.diachi{
+    padding: 15px;
+}
+.user2{
+    margin-right: 50px;
+    color: red;
+}
+.pass2{
+    margin-right: 50px;
+    color: red;
+}
+.email2{
+    margin-right: 50px;
+    color: red;
+}
+.tel2{
+    margin-right: 50px;
+    color: red;
+}
+.diachi2{
+    margin-right: 50px;
+    color: red;
+}
+.user3{
+    margin-right: -40px;
+}
+.pass3{
+    margin-right: -15px;
+}
+.email3{
+    margin-right: -30px;
+}
+.tel3{
+    margin-right: -35px;
+}
+.diachi3{
+    margin-right: -15px;
+}
+.hethong{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hethong img{
+    width: 800px ;
+    height: 700px ;
+    margin-left: 80px;
+}
+.hethong p{
+    float: right;
+    margin-top: -50px;
+    padding: 50px;
+    font-size: 21px;
+
+}
